@@ -1,0 +1,28 @@
+{
+  "name": "ai-history-video",
+  "version": "0.1.0",
+  "private": true,
+  "description": "《把回忆拼好》AI 简史 1950–2026（232.25s · 1920x1080 · 60fps · Remotion）",
+  "scripts": {
+    "dev": "remotion studio",
+    "render": "remotion render Film out/Remembering-AI-232s.mp4",
+    "still": "remotion still Film",
+    "upgrade": "remotion upgrade"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.535",
+    "@remotion/fonts": "4.0.535",
+    "@remotion/noise": "4.0.535",
+    "@remotion/paths": "4.0.535",
+    "@remotion/shapes": "4.0.535",
+    "@remotion/transitions": "4.0.535",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "remotion": "4.0.535"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "typescript": "^5.6.0"
+  }
+}
